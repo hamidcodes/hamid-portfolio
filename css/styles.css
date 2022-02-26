@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
@@ -78,7 +79,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Shippori Antique B 1', sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -7372,13 +7373,17 @@ textarea.form-control-lg {
 .mb-1 {
   margin-bottom: 0.25rem !important;
   color: white;
-  background: rgba(29, 128, 159, 0.7);
+  font-weight: bold;
   text-align: center;
   font-size: 60px !important;
-
-
 }
-
+#web{
+  font-size: 20px;
+  color:white;
+  font-weight: 900;
+  font-style: bold;
+  margin-top:-20px;
+}
 .mb-2 {
   margin-bottom: 0.5rem !important;
 }
@@ -7393,6 +7398,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  text-transform: capitalize;
 }
 
 .mb-auto {
@@ -11316,7 +11322,8 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
-  background-color: wheat;
+  background-color: #241D65;
+  color: white;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11454,10 +11461,15 @@ html {
   display: block;
   max-width: 30rem;
 }
-
+#text{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: black;
 }
 footer.footer .social-link {
   display: block;
@@ -11498,7 +11510,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11537,6 +11549,10 @@ footer.footer .social-link:hover {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+}
+.h2{
+  color: white;
+  font-weight: 200;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
   
